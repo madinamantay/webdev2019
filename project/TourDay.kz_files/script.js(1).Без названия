@@ -1,0 +1,343 @@
+var icms = icms || {};
+
+icms.ucart = (function ($) {
+
+    this.onDocumentReady = function() {
+
+    	if($(".uprop_item_list").length) {
+	    	$(".uprop_item_list").sortable({
+	  			axis: "y",
+	  			revert: true,
+	  			scroll: true,
+	  			placeholder: "sortable-placeholder",
+	  			cursor: "move"
+			});
+    	}
+
+    	if($(".uprop_list").length) {
+			$(".uprop_list").sortable({
+	  			axis: "y",
+	  			revert: true,
+	  			scroll: true,
+	  			placeholder: "sortable-placeholder",
+	  			cursor: "move"
+			});
+		}
+    	
+        icms.ucart.calc();
+        icms.ucart.deliv_calc();
+
+    	$(document).on('click', '.bin_btn', function(){
+
+    		var ctype_id = $(this).attr('data-ctype-id');
+    		var item_id = $(this).attr('data-item-id');
+    		var ctype_name = $(this).attr('data-ctype-name');
+            var count = $('.bin_'+ctype_name+'_'+item_id+' input.bin_btn_count').val();
+            var bin_active = $(this).attr('data-bin-active');
+
+    		icms.ucart.addCart(ctype_id, item_id, ctype_name, count, bin_active);
+
+    	});
+
+        $(document).on('click', '.bin_t_del', function(){
+
+        	var id = $(this).attr('data-id');
+
+            icms.ucart.delItemCart(id);
+
+        });
+
+        $(document).on('blur', '.bin_t_count, .bin_btn_count', function(){
+
+        	var id = $(this).attr('data-id');
+ 			var count = $(this).val();
+ 			if(!count)
+ 				count = 1;
+            if(count && (!parseInt(count) || parseInt(count)<1 || parseInt(count)>1000000 || !$.isNumeric(count))) {
+                count = 1;
+                $(this).val(count);
+            }
+
+            icms.ucart.updateCartCount(id, count);
+
+        });
+
+        $(document).on('keyup', '.bin_t_count, .bin_btn_count', function(){
+            $(this).blur().focus();
+        });
+
+        $(document).on('change', '#deliv_list', function(){
+            icms.ucart.deliv_calc();
+        });
+
+    };
+
+    //====================================================================//
+
+    this.addCart = function(ctype_id, item_id, ctype_name, count, bin_active) {
+
+    	var prop = $('.bin_'+ctype_name+'_'+item_id).parents('div.content_item, div.content_list_item').find('div.ft_ucartprops');
+    	var select_prop;
+
+    	if (prop.length) { //если поле свойств есть
+    		prop = prop.eq(0).find('select'); //берем только одно первое поле с содержимым
+    		if (prop.length) { //если свойства есть
+    			var select_prop = {};
+    			$.each(prop, function(index, value){
+    				if (prop.eq(index).find('option:selected').text() != '') {
+	    				select_prop[index] = {
+	    					name: prop.eq(index).attr('name'),
+	    					val: prop.eq(index).find('option:selected').val()
+	    				};
+    				} else {
+    					var title = $(this).parent('div').find('span').text();
+                        if($('.bin_'+ctype_name+'_'+item_id).parents('div.content_item, div.content_list_item').find('div.ucart_item_props').css('display') == 'none') {
+                            $('.bin_'+ctype_name+'_'+item_id).parents('div.content_item, div.content_list_item').find('div.ucart_item_props').show('slow');
+                        } else {
+                            alert('Выберите: ' + $.trim(title));
+                        }
+    					select_prop = 'stop';
+    					return false;
+    				}
+		        });
+    		}
+    	}
+
+    	if(select_prop=='stop') {
+    		return;
+    	}
+
+    	if ($('.fly-bin').length) {
+	        $('.bin_btn.bin_'+ctype_name+'_'+item_id).clone().css({'background':'coral','position':'absolute','z-index':'11100',top:$('.bin_btn.bin_'+ctype_name+'_'+item_id).offset().top,left:$('.bin_btn.bin_'+ctype_name+'_'+item_id).offset().left}).appendTo('body').animate({opacity:0.05,left:$('.fly-bin').offset()['left'],top:$('.fly-bin').offset()['top']},1500,function(){$(this).remove();});
+        }
+
+        $(this).val(bin_active);
+
+        $.post('/ucart/add_cart', {
+            
+            ctype_id: ctype_id,
+            item_id: item_id,
+            ctype_name: ctype_name,
+            count: count,
+            props: select_prop
+            
+        }, function(result){
+            
+            if (!result.error){
+            	icms.ucart.getBinCount();
+                return;
+            } else {
+                return;
+            }
+
+        }, "json");
+
+    }
+
+    //====================================================================//
+
+    this.addBin = function(selector) {
+
+    	//Добавляем кнопку корзины
+        if (!$('#bin').length) {
+        	$(selector).prepend('<div id="bin"><a href="/ucart">Корзина</a></div>');
+        	icms.ucart.getBinCount();
+        }
+
+    }
+
+    //====================================================================//
+
+    this.getBinCount = function() {
+
+        $.post('/ucart/get_bin_count', {
+        }, function(result){
+            
+            if (!result.error){
+        		if (!$('.bin_counter').length) {
+        			$('#bin a').append('<span class="bin_counter">'+result.data+'</span>');
+        		} else {
+        			$('.bin_counter').text(result.data);
+        		}
+        		if (!$('.menu .ucart .counter').length) {
+        			$('.menu .ucart .wrap').append('<span class="counter">'+result.data+'</span>');
+        		} else {
+        			$('.menu .ucart .counter').text(result.data);
+        		}
+                return;
+            } else {
+            	$('.bin_counter').remove();
+	            $('.menu .ucart .counter').text('');
+                return;
+            }
+
+        }, "json");
+
+    }
+
+    //====================================================================//
+
+    this.delItemCart = function(id) {
+
+        $.post('/ucart/del_item_cart', {
+            
+            id: id,
+            
+        }, function(result){
+            
+            if (!result.error){
+                $('tr.bin_t_'+id).remove();
+                if(!$('tr.bin_t_tr_item').length){
+                    $('.bin_t, .bin_form, .text-before-form').remove();
+                    $('.hidden_zero').show('slow');
+                } else {
+                    icms.ucart.calc();
+                }
+                icms.ucart.getBinCount();
+                return;
+            } else {
+                return;
+            }
+
+        }, "json");
+
+    }
+
+    //====================================================================//
+
+    this.updateCartCount = function(id, count) {
+
+        $.post('/ucart/update_cart_count', {
+            
+            id: id,
+            count: count
+            
+        }, function(result){
+            
+            if (!result.error){
+            	icms.ucart.calc();
+                return;
+            } else {
+                return;
+            }
+
+        }, "json");
+
+    }
+
+    //====================================================================//
+
+    this.calc = function() {
+
+        //Проходим по товарам
+        var td_price = $('.td_item_price');
+        $.each(td_price, function(index, value){
+        	var price = $('.td_item_price span').eq(index).text();
+        	if (price) {
+	        	var count = $('.td_item_price input').eq(index).val();
+	        	if(!count)
+	        		count = 1;
+	     		count = parseInt(count).toFixed();
+	        	var sum = parseFloat(price)*parseInt(count);
+	        	$('.bin_t_price').eq(index).text(sum.toFixed(2));
+        	}
+        });
+
+        //Получаем сумму всех товаров
+        var sum = 0;
+        $.each($('.bin_t_price'), function(index, value){
+            sum += parseFloat($('.bin_t_price').eq(index).text());
+        });
+        
+        //Пересчитываем коэффициенты
+        var res = sum;
+        $.each($('.ratio_item'), function(index, value){
+            
+            var min = $('.ratio_item').eq(index).attr('data-ratio-min');
+            var max = $('.ratio_item').eq(index).attr('data-ratio-max');
+
+            if((min && parseFloat(min)>0 && sum<parseFloat(min)) || (max && parseFloat(max)>0 && sum>parseFloat(max))) {
+            	$('.ratio_item').eq(index).text(0);
+            	return;
+            }
+
+            var type = $('.ratio_item').eq(index).attr('data-ratio-unit');
+            var values = $('.ratio_item').eq(index).attr('data-ratio-value');
+        
+            if(type == 1) { //Проценты
+                var percent = parseFloat(values)/100*sum;
+                res += percent;
+                $('.ratio_item').eq(index).text(percent.toFixed(2));
+            } else { //Сумма
+                res += parseFloat(values);
+                $('.ratio_item').eq(index).text(values.toFixed(2));
+            }
+
+        });
+
+        //Стоимость доставки
+        var delivery_price = $('.bin_t_price_deliv').text();
+        res += parseFloat(delivery_price);
+
+        //Результат
+        $('#price-result').text(res.toFixed(2));
+
+    }
+
+    //====================================================================//
+
+    this.deliv_calc = function() {
+
+        var id = $('#deliv_list :selected').val();
+
+        $.post('/ucart/get_delivery_price', {
+            
+            id: id
+            
+        }, function(result){
+            
+            if (!result.error){
+                $('.bin_t_price_deliv').text(result.price);
+                icms.ucart.calc();
+                return;
+            } else {
+                return;
+            }
+
+        }, "json");
+
+    }
+
+    //====================================================================//
+
+    this.addProp = function() {
+    	var title = $('input.add_uprop').val();
+    	if(!title) return;
+    	var num = Math.floor(Math.random()*(9999-1))+1;
+    	$('.uprop_list').append('<div data-id="'+num+'" class="uprop_line">'+title+'<input type="hidden" name="prop_item['+num+'][title]" value="'+title+'" /><span class="add_item_uprop" onclick="icms.ucart.addPropItem(this);">Добавить значение</span><span class="del_uprop" onclick="$(this).parent().remove()">Удалить</span><div class="uprop_item_list"></div></div>');
+    	return;
+    }
+
+    //====================================================================//
+
+    this.addPropItem = function(ths) {
+    	var num = $(ths).parent().attr('data-id');
+    	var num2 = Math.floor(Math.random()*(99999-10000))+10000;
+    	$(ths).parent().children('.uprop_item_list').append('<div data-id="'+num+'" class="uprop_item_line"><input class="name" type="text" name="prop_item['+num+'][prop]['+num2+'][name]" value="" /><input class="ratio" type="text" name="prop_item['+num+'][prop]['+num2+'][ratio]" value="" placeholder="Коэфф.цены" /><select class="unit" name="prop_item['+num+'][prop]['+num2+'][unit]"><option value="">---</option><option value="value">Коэффициент</option><option value="percent">Процент</option></select><span class="del_uprop" onclick="$(this).parent().remove()">Удалить</span></div>');
+    	$('[data-id="'+num+'"] input:first-child').focus();
+    	return;
+    }
+
+    //====================================================================//
+
+    this.change = function(objName, min, max, step) {
+	    var obj = document.getElementById(objName);
+	    var tmp = +obj.value + step;
+	    if (tmp<min) tmp=min;
+	    if (tmp>max) tmp=max;
+	    obj.value = tmp;
+	}
+
+	return this;
+
+}).call(icms.ucart || {},jQuery);
