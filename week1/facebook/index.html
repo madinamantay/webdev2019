@@ -1,0 +1,108 @@
+<html> 
+<head>
+    <title>Facebook</title>
+    <style>
+        body{
+            background: ghostwhite;
+            color: #1d2129;
+            direction: ltr;
+            line-height: 1.34;
+            margin: 0;
+            padding: 0;
+            unicode-bidi: embed;
+            overflow-y: scroll; 
+        }
+        body, button, input, label, select, td, textarea{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        .menubar{
+            column-count: 2;
+        }
+        #menubar1{
+            background-color: blue;
+            width:1800;
+            height: 80px;
+        }
+        #name{
+            color: white;
+        }
+        .label{
+            color:whitesmoke;
+            position: 100 50 120 60;
+        }
+        #sub{
+            width: 200px;
+            height: 28px;
+        }
+        .but{
+            width: 100px;
+            height: 20px;
+        }
+        #emnum{
+            width: 410px;
+            height: 28px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "menubar" id = "menubar1">
+        <h1 id="name">facebook</h1>
+        <br />
+        <form action="file:///C:\Users\Юзер\Desktop\webdev2019\week1\facebook\facebookPage.html">
+            <label class="label">Номер телефона или эл.адрес</label>
+            <label class="label">Пароль</label>
+            <br />
+            <input id="sub" type="email/number" autofocus, required>
+            <input id="sub" type="password" autofocus, required>
+            <button class="but" type="submit">Войти</button>
+            <br />
+            <label>Забыли пароль?</label>
+        </form>
+    </div>
+    <div class = "menubar">
+        <h2 id="facebookhelps">Facebook помогает вам всегда оставаться на <br> связи и общаться со своими знакомыми.</h2>
+    </br>
+    </br>
+        <img alt ="Facebook img" src="face.png" />
+        <br />
+        <form action="file:///C:\Users\Юзер\Desktop\webdev2019\week1\facebook\facebookRegistrate.html">
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
+            <h1>Регистрация</h1>
+            <p>Это бесплатно и всегда будет бесплатно</p>
+            <input id="sub" type = "text" placeholder="Имя" autofocus, required> <input id="sub" type = "text" placeholder="Фамилия" required>
+            <br>
+            <br>
+            <input id="emnum" type= "email/number"
+            placeholder="Номер мобильного телефона или эл.адрес" autofocus, required>
+            <br>
+            <br>
+            <input id="emnum" type="password" placeholder="Новый пароль" autofocus, required>
+            <br>
+            <br>
+            <label>Дата рождения</label>
+            <br>
+            <input type="date">
+            <br>
+            <br>
+            <input type="radio" name="Gender">
+            <label>Женщина  </label>
+            <input type="radio" name="Gender">
+            <label>Мужчина</label>
+            <p>Нажимая кнопку регистрации вы принимаете <a href="https://www.facebook.com/about/privacy/update">
+                    Условия,<br> Политику использования данных</a> и <a href="https://www.facebook.com/policies/cookies/">Политику в отношении <br> файлов coocie.
+                    </a>Вы можете получать от нас SMS- <br>уведомления, отказаться от которых можно в люой момент.</p>
+            <button type="submit" style="width: 200px; height: 50px; color: white; background-color: 
+                        green;">Регистрация</button>
+        </form>
+    </div>
+
+</body>
+</html>
