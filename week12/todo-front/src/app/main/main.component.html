@@ -1,0 +1,19 @@
+<div class = 'tasklists'>
+
+  <div *ngFor="let taskList of tasklists" (click) ="getTasks(taskList)">{{taskList.id}} - {{taskList.name}}</div>
+
+</div>
+
+
+
+<br><br>
+
+
+
+
+
+<div class = 'tasks'>
+
+  <div *ngFor="let task of tasks">{{task.id}} - {{task.name}} - {{task.created_at}} - {{task.due_on}} - {{task.status}}</div>
+
+</div>

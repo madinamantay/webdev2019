@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61ffefa1-d976-46ef-a62c-9ef2d05a8c51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/anglees.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/angles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/broadway.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/broadway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/burger.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/burger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/burgerreset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/cssgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/cssgrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/healthyrecipes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/healthyrecipes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/learncss8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/morocco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/mororcco.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/olivia.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/olivia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/paintstore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/paintstore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/popspa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/pupspa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/pupspareset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/savory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/savory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/css/zametki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/daviesburger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/fashionblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/formaStory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/winefestival.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/html/zametki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/js/zametki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/codeacademy/zametki.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/facebook/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/facebook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/instagram/facebookinstagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/instagram/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/instagram/instagramlogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/instagram/instagramphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/images/pervaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/images/vtoroe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/mozilla/заметки.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/task_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/templates/add_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/templates/list_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/templates/task_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/toggle_done.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../body.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../facebook/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../facebook/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/images/pervaya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/images/vtoroe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mozilla/заметки.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nature_KZ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/akbulak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/alpine-race-3-fevralja-2019-photo-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/alpine-race-3-fevralja-2019-photo-micro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/b.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/besplatnyi-pohod-na-ozero-issyk-photo-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/besplatnyi-pohod-na-ozero-issyk-photo-micro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/core.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/donate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/drop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/drop.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/easyXDM.min.js(1).Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/easyXDM.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/facebook-ico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/guide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/ikons_icons8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/instagram-ico2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/iscroll.5.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/issyklake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/jquery-modal.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/jquery.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/lang.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/modal.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/na-kacheli-pik-furmanova-13-janvarja-photo-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/na-kacheli-pik-furmanova-13-janvarja-photo-micro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/providers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/rating.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/redirect.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/reff-id.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/saved_resource(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/script.js(1).Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/script.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/skin_icms2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/slider.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/snoubord-osnovy-fristaila-pryzhki-photo-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/snoubord-peredvizhenie-po-ploskim-uchastkam-photo-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/snoubord-photo-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/snoubord-top-5-sovetov-nachinayuschim-snoubordistam-photo-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/stats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/styles(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/tag.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-gui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/theme-widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/tseso.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/ulogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/ulogin.js(1).Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/ulogin.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/vex-theme-plain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/vex.combined.min.js.Без названия" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/vex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/vkontakte-ico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/yandex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/zabeg-na-pik-amangeldy-20-janvarja-photo-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/TourDay.kz_files/zabeg-na-pik-amangeldy-20-janvarja-photo-micro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/ind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/projectweb/facebookicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/projectweb/instaicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project/projectweb/oNas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectweb/facebookicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectweb/instaicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projectweb/oNas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../style_registre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/anglees.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/angles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/broadway.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/broadway.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/burger.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/burger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/burgerreset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/cssgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/cssgrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/healthyrecipes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/healthyrecipes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/learncss8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/morocco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/mororcco.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/olivia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/olivia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/paintstore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/paintstore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/popspa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/pupspa.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/pupspareset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/savory.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/savory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/css/zametki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/daviesburger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/fashionblog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/formaStory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/winefestival.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/html/zametki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/js/zametki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/codeacademy/zametki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/instagram/facebookinstagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/instagram/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/instagram/instagramlogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/instagram/instagramphoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/images/pervaya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/images/vtoroe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week1/mozilla/заметки.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week2/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/week2/todo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../week11/todo-back/todo/todo/wsgi.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-415">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/api/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/todo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#303#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/todo/api/static/css/style.css" />
+        <option value="$PROJECT_DIR$/todo/api/templates/index.html" />
+        <option value="$PROJECT_DIR$/todo/api/templates/add_list.html" />
+        <option value="$PROJECT_DIR$/todo/api/utils.py" />
+        <option value="$PROJECT_DIR$/todo/api/templates/list_detail.html" />
+        <option value="$PROJECT_DIR$/todo/api/templates/base.html" />
+        <option value="$PROJECT_DIR$/todo/api/task_detail.py" />
+        <option value="$PROJECT_DIR$/todo/api/templates/task_detail.html" />
+        <option value="$PROJECT_DIR$/todo/api/toggle_done.py" />
+        <option value="$PROJECT_DIR$/todo/todo/wsgi.py" />
+        <option value="$PROJECT_DIR$/todo/todo/urls.py" />
+        <option value="$PROJECT_DIR$/todo/api/admin.py" />
+        <option value="$PROJECT_DIR$/todo/api/models.py" />
+        <option value="$PROJECT_DIR$/todo/api/urls.py" />
+        <option value="$PROJECT_DIR$/todo/manage.py" />
+        <option value="$PROJECT_DIR$/todo/api/serializers.py" />
+        <option value="$PROJECT_DIR$/todo/api/views.py" />
+        <option value="$PROJECT_DIR$/todo/todo/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="965" />
+    <option name="width" value="964" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="todo-back" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Юзер\Desktop\webdev2019n\week12\todo-back" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="todo-back" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Юзер\Desktop\webdev2019n\week12\todo-back" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="todo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="todo-back" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Юзер\Desktop\webdev2019n\week12\todo-back" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="todo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="todo-back" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Юзер\Desktop\webdev2019n\week12\todo-back" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="todo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="todo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="todo-back" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="todo-back" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+            </path>
+            <path>
+              <item name="todo-back" type="8cb6161f:DatabaseProjectViewPane$1$1" />
+              <item name="todo-back" type="5b8f4e1:DatabaseProjectViewPane$1$1$1" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.toSaveIncludeLibraries" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todo/db.sqlite3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61ffefa1-d976-46ef-a62c-9ef2d05a8c51" name="Default Changelist" comment="" />
+      <created>1554661731834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554661731834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08982827" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="11" visible="true" weight="0.3323782" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.5485232" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/todo/api/static/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/todo/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/templates/add_list.html" />
+    <entry file="file://$PROJECT_DIR$/todo/api/templates/list_detail.html" />
+    <entry file="file://$PROJECT_DIR$/todo/api/templates/task_detail.html" />
+    <entry file="file://$PROJECT_DIR$/todo/api/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/todo/api/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/todo/api/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/todo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/utils.py" />
+    <entry file="file://$PROJECT_DIR$/todo/api/task_detail.py" />
+    <entry file="file://$PROJECT_DIR$/todo/api/toggle_done.py" />
+    <entry file="file://$PROJECT_DIR$/todo/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/todo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9acbb7d4-aa3f-4be1-a5bb-ebcb8e1c30cb/schema/main/table/api_task" />
+    <entry file="das://9acbb7d4-aa3f-4be1-a5bb-ebcb8e1c30cb/schema/main/table/api_tasklist" />
+    <entry file="das://9acbb7d4-aa3f-4be1-a5bb-ebcb8e1c30cb/schema/main/table/auth_user" />
+    <entry file="file://$PROJECT_DIR$/todo/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/todo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#303#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

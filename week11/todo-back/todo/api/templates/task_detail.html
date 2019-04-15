@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}
+<style>
+.select2 {
+    width: 100% !important;
+}
+
+.select2-container {
+    min-width: 0 !important;
+}
+</style>
+{{ form.media }}
+{{ merge_form.media }}
+{% endblock %}
+
+
+
+{% block body %}
+  <div class="card-deck">
+    <div class="card col-sm-8">
+      <div class="card-body">
+        <h3 class="card-title">{{ task.title }}</h3>
+        {% if task.note %}
+        <div class="card-text">{{ task.note|safe|urlize|linebreaks }}</div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="card col-sm-4 p-0">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <form method="post" action="{% task.id %}" role="form" class="d-inline">
+            {% csrf_token %}
+            <div style="display:inline;">
+              <button class="btn btn-info btn-sm" type="submit" name="toggle_done">
+                {% if task.completed %} Mark Not Done {% else %} Mark Done {% endif %}
+              </button>
+            </div>
+          </form>
+        </li>
+        <li class="list-group-item">
+          <strong>Due date:</strong> {{ task.due_date }}
+        </li>
+
+        {% if task.completed %}
+          <li class="list-group-item">
+            <strong>Completed on:</strong> {{ task.completed_date}}
+          </li>
+        {% else %}
+          <li class="list-group-item">
+            <strong>Completed:</strong> {{ task.completed|yesno:"Yes,No" }}
+          </li>
+        {% endif %}
+
+        <li class="list-group-item">
+          <strong>In list:</strong>
+          <a href="{% url 'todo:list_detail' task.task_list.id task.task_list.slug %}">
+            {{ task.task_list }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}
