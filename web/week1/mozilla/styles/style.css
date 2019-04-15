@@ -1,0 +1,42 @@
+html{
+    background-color:burlywood;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: peachpuff;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+p {
+    color: blueviolet;
+    width: 1200px;
+    border: 3px solid black;
+  }
+  
+li:hover { 
+    outline: dotted red;
+    background: gold; 
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
